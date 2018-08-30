@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.label-item {
+  list-style-type: none;
+}
+
+.envelope {
+  border: 1px solid;
+  margin: 10px;
+  width: 700px;
+  height: 300px;
+}
+
+.receiver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stamp {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  left: 570px;
+  top: 10px;
+}
